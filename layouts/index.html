@@ -119,73 +119,28 @@ We will provide aethersx2 settings that are suitable for your device, so that th
 
 
 <h3>Low End Settings</h3>
-<h4>Interface</h4>
-<ul>
-<li> Fast boot : Enable</li>
-</ul>
+<h4>Graphics</h4>
+<p>This is the biggest performance knob. Focus on lowering these settings first.
+<p>Texture Filtering: Set to "None" or "Nearest". This reduces the graphical fidelity but improves speed.
+<p>Frame Skipping: Enable "Auto-frameskip" with a moderate "Percent of frames to skip" value (start at 1 and adjust as needed). This allows the emulator to skip frames when necessary to maintain a playable framerate.
 <h4>System</h4>
-<ul>
-<li>Affinity control mode : Disable
-<li>Multi Treaded VU1 : Enable
-<li>instant VU1 : Enable
-<li>Fast CDVD : Disable
-<li>Warn About Unsafe Settings : Disable
-<li>Enable Frame Limit : Disable
-</ul>
-<h4>GPU</h4>
+<p>Backend: If your device supports it, try switching to "Vulkan" for potentially better performance. Otherwise, stick with "OpenGL".
+<p>Fast Memory (Unstable): This can provide a performance boost on some devices but might cause glitches in some games. Enable it with caution and test individual games.
 
-<ul>
-<li> Gpu Render - For  Mali GPU use Vulkan, For Andreno Use OpenGL.
-<li> Upscale Multiple : 1x native
-<li> Bilinear Filtering : Bilinear (Forced)
-<li> Mipmaping : Disable 
-<li> Trilinear Filtering : Disable
-<li> Anisotropic Filtering : Disable
-<li> Blending Accuracy : minimum
-<li> Texture Preloading : None
-<li> Aspect Ratio : Auto Standard
-<li> FMV Aspect Ratio : Off
-<li> Bilinear Upscaling : None
-<li> Enable widescreen patches : Disable
-<li> Enable No-Interlacing patches : Disable
-<li> Host Vsync : Disable
-<li> FXAA Shader : Disable
-<li> TV Shader : None
-<li> Shade Boost : Disable
-</ul>
-<h4>Advanced Settings</h4>
-<ul>
-<li> Enable EE Recompiler : Enable
-<li> Enable VU0 Recompiler (Micro Mode) : Enable
-<li> Enable VU1 Recompiler : Enable
-<li> Enable IOP Recompiler : Enable
-<li> EE FPU Correct Add/Sub
-<li> Enable Fast Memory : Enable
-<li> GPU Palette Conversion : Enable
-<li> Dithering : OFF
-<li> De-Interlacing : AUTO
-<li> CRC Fix Level : OFF
-<li> Vsync Queue Size : 1 Frame
-<li> SoftWare Rendering Threads  : 4 threads
-<li> Integer Scaling : Disable
-<li> Screen Offsets
-<li> Show OverScan : Disable
-<li> Anti Blur : Disable
-<li> Disable Interlace Offset Disable
-<li> Skip presenting Duplicate Frames : Enable
-<li> Sync to Host Refresh Rate : Disable
-<li> Disable Threaded Presentation : Disable 
-<li> Enable Logcat Logging : Disable
-<li> Enable File logging : Disable
-<li> Enable EE Console : Disable
-<li> Enable EOP Console : Disable
-<li> Enable CDVD Read Logging  : Disable 
-<li> Debug GPU Device : Disable
-<li> Disable FrameBuffer Fetch : Disable
-<li> Disable Duel-Source blending : Disable
-<li> Override Texture Barriers : AUTO
-<li> Override Geometry Shaders : AUTO
-</ul>
+<h4>Other Settings to Consider</h4>
+<p>Resolution: Lowering the in-game resolution can significantly improve performance. Experiment to find a balance between smoothness and visuals.
+<p>Effects: Disabling effects like bloom and anti-aliasing can free up resources.
+
+<h4>Additional Tips</h4>
+
+    Close Background Apps: Free up as much system memory as possible for PPSSPP by closing any unnecessary apps running in the background.
+    Lower Device Settings: If your device allows, consider lowering overall system settings like brightness or animations to free up resources.
+    Try Different PPSSPP Versions: Sometimes, older versions of PPSSPP might run better on low-end devices. You can find older versions online.
+
+Resources:
+
+
+
 
 <h3>High End Settings</h3>
 <h4>Interface</h4>
