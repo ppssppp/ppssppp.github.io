@@ -1,8 +1,8 @@
-baseurl = "https://aethersx2.gitlab.io"
+baseurl = "https://ppssppp.github.io"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
-languageCode = "en-us"
+languageCode = "en"
 resourceDir = "../resources"
 DefaultContentLanguage = "en"
 Paginate     = 60

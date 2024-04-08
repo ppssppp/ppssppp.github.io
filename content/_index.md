@@ -1,6 +1,6 @@
 ---
-title  : Aethersx2 Emulator For Android | IOS | Windows | Linux | Mac
-description: AethersX2 is a PS2 emulator for Android, iOS, linux, mac and windows based Arhitecture ARM which means it can run PS2 games on Android devices and desktop with Architecture Arm
+title  : PPSSPP Emulator For Android | IOS | Windows | Linux | Mac
+description: PPSSPP is a PS1 emulator for Android, iOS, linux, mac and windows based Arhitecture ARM which means it can run PS2 games on Android devices and desktop with Architecture Arm
 lang: en
 categories: [emulator]
 tags      : [apk]
