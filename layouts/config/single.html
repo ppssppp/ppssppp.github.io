@@ -1,0 +1,38 @@
+{{ define "game" }}
+<main class="container-fluid">
+<article>
+
+
+<p>
+<a href="https://www.toprevenuegate.com/x2x0kwhar?key=55f907ca3a34019305bb98cc89396ae7">
+Link Telegram 1
+</a>
+</p>
+
+{{ if .Params.telegram }}
+<p>
+<a href="{{ .Params.telegram }}">Link Telegram 2
+</a>
+</p>
+{{ end }}
+
+<p>
+<a href="https://www.toprevenuegate.com/b9p0mwvwgs?key=c882ea866d79e457f018e720ee79a171">
+Link Google Drive 1
+</a>
+</p>
+
+
+
+
+{{ if .Params.drive }}
+<p>
+<a href="{{ .Params.drive }}">
+Link Google Drive 2
+</a>
+</p>
+{{ end }}
+
+</article>
+</main>
+{{ end }}

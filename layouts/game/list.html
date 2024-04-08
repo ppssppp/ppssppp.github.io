@@ -1,0 +1,16 @@
+{{ define "game" }}
+
+<h1 style="padding-top: 0px;">Game</h1>
+  {{ $posts := where .Site.Pages "Type" "game" }}
+  {{ $paginator := .Paginate .Pages }}
+  {{ partial "pagination.html" (dict "p" $paginator "s" .Scratch) }}
+  <ol>
+    {{ range $paginator.Pages }}
+    <li>
+    <div style="padding: 3px;"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+    </li>
+    {{ end }}
+  </ol>
+  {{ partial "pagination.html" (dict "p" $paginator "s" .Scratch) }}
+{{ end }}
+

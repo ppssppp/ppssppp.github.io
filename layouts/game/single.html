@@ -1,0 +1,51 @@
+{{ partial "meta/main.html" . }}
+<head>
+{{ partial "head.html" . }}
+
+<!-- popunder adstera -->
+<script type='text/javascript' src='//payoffyes.com/68/07/87/68078751213a5245124a4061a035760d.js'></script>
+
+</head>
+<body>
+{{ partial "navbar.html"  . }}
+<main class="container">
+<article>
+<h1>{{ .Title }}</h1>
+<!-- social bar adstera -->
+<!-- <script type='text/javascript' src='//pl21594457.toprevenuegate.com/fb/d1/ea/fbd1eac567a7d7965e7ba6a41fe045cb.js'></script> -->
+
+<p class="service-text textku">Name = {{ .Title }}</p>
+{{ if .Params.genre }}
+<p class="service-text textku">Genre = {{ .Params.genre }}</p>
+{{ end }}
+
+{{ if .Params.size }}
+<p class="service-text textku">Size = {{ .Params.size }}</p>
+{{ end }}
+
+
+<h2 style="padding-top: 0px;">Download Link</h2>
+<p style="text-align: center;">Click and Back 3x to download
+</p>
+{{ if .Params.drive }}
+<div class="img_row">
+<a href="{{ .Params.drive }}">
+<img class="img_download" src="/img/download.png" alt="download">
+</a>
+</div>
+
+{{ else if .Params.telegram }}
+<div class="img_row">
+<a href="{{ .Params.telegram }}">
+<img class="img_download" src="/img/download.png" alt="download">
+</a>
+</div>
+{{ end }}
+
+{{ .Content }}
+
+</article>
+</main>
+{{ partial "footer.html" }}
+</body>
+</html>
