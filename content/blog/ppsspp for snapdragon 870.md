@@ -2,9 +2,9 @@
 type   : blog
 title  : PPSSPP For Snapdragon 870
 slug   : ppsspp-870
-date   : 2023-12-21
+date   : 2024-04-09
 categories: [blog]
-tags      : [blof]
+tags      : [blog]
 ---
 
 
