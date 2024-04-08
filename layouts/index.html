@@ -72,7 +72,7 @@ Android Version : Android 7 +
 Prosesor : Use Minimum <i>Intel core i3 gen 10 +</i>
 </li>
 <li>
-Windows Version : <i>Windows 10 +</i>
+Windows Version : <i>Windows 7 +</i>
 </li>
 </ul>
 
@@ -82,7 +82,7 @@ Windows Version : <i>Windows 10 +</i>
 Prosesor : Use Minimum <i>Intel core i3 gen 10 +</i>
 </li>
 <li>
-Linux Version : <i>Ubuntu 21 +</i>
+Linux Version : <i>Ubuntu 18.0 +</i>
 </li>
 </ul>
 <h2> How To improve Device performance</h2>
@@ -130,84 +130,33 @@ We will provide aethersx2 settings that are suitable for your device, so that th
 <p>Effects: Disabling effects like bloom and anti-aliasing can free up resources.
 
 <h4>Additional Tips</h4>
-
-    Close Background Apps: Free up as much system memory as possible for PPSSPP by closing any unnecessary apps running in the background.
-    Lower Device Settings: If your device allows, consider lowering overall system settings like brightness or animations to free up resources.
-    Try Different PPSSPP Versions: Sometimes, older versions of PPSSPP might run better on low-end devices. You can find older versions online.
-
-Resources:
-
-
+<p>Close Background Apps: Free up as much system memory as possible for PPSSPP by closing any unnecessary apps running in the background.
+<p>Lower Device Settings: If your device allows, consider lowering overall system settings like brightness or animations to free up resources.
+<p>Try Different PPSSPP Versions: Sometimes, older versions of PPSSPP might run better on low-end devices. You can find older versions online.
 
 
 <h3>High End Settings</h3>
-<h4>Interface</h4>
-<ul>
-<li> Fast boot : Enable</li>
-</ul>
-<h4>System</h4>
-<ul>
-<li>Affinity control mode : Disable
-<li>Multi Treaded VU1 : Enable
-<li>instant VU1 : Enable
-<li>Fast CDVD : Disable
-<li>Warn About Unsafe Settings : Disable
-<li>Enable Frame Limit : Disable
-</ul>
-<h4>GPU</h4>
+<p>High-end devices can leverage PPSSPP's settings to crank up the visuals and performance for a fantastic PSP emulation experience. Here's a breakdown of key settings to consider:
+<h4>General:</h4>
+<p> <b>Graphics:</b> This depends on your preference. For maximum graphical fidelity, choose "Vulkan" (if available) or "OpenGL hardware." Otherwise, "OpenGL software" is a good fallback.
+<p> <b>Frameskip:</b> If you experience occasional slowdown, enable "Auto frameskip" and adjust the percentage to maintain a smooth 60 FPS.
 
-<ul>
-<li> Gpu Render - For  Mali GPU use Vulkan, For Andreno Use OpenGL.
-<li> Upscale Multiple : 8x native
-<li> Bilinear Filtering : Bilinear (PS2)
-<li> Mipmaping : Full
-<li> Trilinear Filtering : Enable (PS2)
-<li> Anisotropic Filtering : 2x
-<li> Blending Accuracy : High
-<li> Texture Preloading : None
-<li> Aspect Ratio : Stretch (Fil Screen)
-<li> FMV Aspect Ratio : WideScreen
-<li> Bilinear Upscaling : Smooth
-<li> Enable widescreen patches : Enable
-<li> Enable No-Interlacing patches : Disable
-<li> Host Vsync : Disable
-<li> FXAA Shader : Disable
-<li> TV Shader : None
-<li> Shade Boost : Disable
-</ul>
-<h4>Advanced Settings</h4>
-<ul>
-<li> Enable EE Recompiler : Enable
-<li> Enable VU0 Recompiler (Micro Mode) : Enable
-<li> Enable VU1 Recompiler : Enable
-<li> Enable IOP Recompiler : Enable
-<li> EE FPU Correct Add/Sub
-<li> Enable Fast Memory : Enable
-<li> GPU Palette Conversion : Enable
-<li> Dithering : OFF
-<li> De-Interlacing : AUTO
-<li> CRC Fix Level : OFF
-<li> Vsync Queue Size : 1 Frame
-<li> SoftWare Rendering Threads  : 5 threads
-<li> Integer Scaling : Disable
-<li> Screen Offsets
-<li> Show OverScan : Disable
-<li> Anti Blur : Disable
-<li> Disable Interlace Offset Disable
-<li> Skip presenting Duplicate Frames : Enable
-<li> Sync to Host Refresh Rate : Disable
-<li> Disable Threaded Presentation : Disable 
-<li> Enable Logcat Logging : Disable
-<li> Enable File logging : Disable
-<li> Enable EE Console : Disable</li>
-<li> Enable EOP Console : Disable</li>
-<li> Enable CDVD Read Logging  : Disable</li>
-<li> Debug GPU Device : Disable</li>
-<li> Disable FrameBuffer Fetch : Disable</li>
-<li> Disable Duel-Source blending : Disable</li>
-<li> Override Texture Barriers : AUTO</li>
-<li> Override Geometry Shaders : AUTO</li>
-</ul>
+<h4>Graphics:</h4>
+
+<p> <b>Texture Filtering:</b> "Anisotropic filtering x16" provides the sharpest textures, but it can be demanding. Experiment with lower levels for a balance between quality and performance.
+<p> <b>Bilinear Filtering:</b> Enable this for smoother textures, especially helpful for emulating older games.
+<p> <b>Internal Resolution:</b> Crank this up for a sharper image. Experiment with different resolutions (e.g., 2x native PSP resolution) to find the sweet spot between visuals and performance on your device.
+
+<h4>Advanced:</h4>
+<p> <b>Hardware Transform:</b> If enabled, the GPU handles 3D transformations, potentially improving performance. However, it might cause graphical glitches in some games. Test it out and see if it works for you.
+<p> <b>Disable Alpha Dithering:</b> This can improve image quality, but it might cause transparency issues in certain games.
+
+<h4>Additional Tips:</h4>
+
+<p> <b>Cheats:</b> PPSSPP offers built-in cheat support. You can find cheat codes online for specific games and enable them within the emulator for an advantage.
+<p> <b>Save States:</b> Utilize save states to create checkpoints within games, allowing you to resume progress from specific points.
+<p> <b>Controls:</b> Customize the on-screen controls for a comfortable gaming experience. You can even connect a Bluetooth controller for a more traditional feel.
+
 
 <h2>Tips</h2>
 <ul>
