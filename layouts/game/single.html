@@ -1,7 +1,7 @@
 {{ partial "meta/main.html" . }}
 <head>
 {{ partial "head.html" . }}
-
+<title>{{ .Page.Title | default .Site.Title }} - PPSSPP Emulator</title>
 </head>
 <body>
 {{ partial "navbar.html"  . }}
