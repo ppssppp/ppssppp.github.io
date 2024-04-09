@@ -5,10 +5,10 @@ lang: en
 categories: [emulator]
 tags      : [apk]
 keywords  : [
-    "aethersx2", "aethersx2 download", "download aethersx2",
-    "aethersx2 ios", "aethersx2 android", "aethersx2 windows", "aethersx2 linux", "aethersx2 mac", "aethersx2 iphone", 
-    "aethersx2 emulator", "emulator ps2", "playstation 2", "emulator ps2 android",
-    "emulator ps2 linux", "download game aethersx2"
+    "ppsspp", "ppsspp download", "download ppsspp",
+    "ppsspp ios", "ppsspp android", "ppsspp windows", "ppsspp linux", "ppsspp mac", "ppsspp iphone", "ppsspp ios",
+    "ppsspp emulator", "emulator ps1", "playstation 2", "emulator psp android",
+    "emulator psp linux", "download game ppsspp"
   ]
 author : wahyu6070
 ---
